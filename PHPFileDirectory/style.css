@@ -1,0 +1,543 @@
+/* === CONSTANTS === */
+$primary-color : #f17c2c;
+$color-light: #f1f1f1;
+$dark-color: rgb(33, 37, 41);
+
+html,
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight:300;
+      font-size: 20px;
+      line-height: 30px;
+      color:$dark-color;
+
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Muli', sans-serif;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 100px;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 30px;
+      letter-spacing:1px;
+      text-transform: uppercase;
+      color: $primary-color;
+    }
+    #slogan {
+      font-weight: 100;
+      margin-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 0px;
+      text-shadow: 1px 1px $dark-color;
+
+    }
+    h3 {
+      text-transform: uppercase;
+      color: $primary-color;
+      font-weight: bold;
+      font-size: 40px;
+      margin-bottom:30px;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 25px;
+      margin-top:0px;
+      margin-bottom:30px;
+      color: $primary-color;
+    }
+    h5, h6 {
+      color: $dark-color;
+    }
+    li {
+      display: block !important;
+    }
+    /* ========== NAVIGATION ========== */
+    #nav {
+      background-color: #212121;
+      a {
+        color: $color-light;
+        letter-spacing: 2px;
+        padding: 5px 10px;
+      }
+      a:hover {
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
+
+    /* ========== MAIN ========== */
+    #logo-home {
+      height:40px;
+      margin-right:40px;
+    }
+    #symbol {
+      width: 105px;
+
+    }
+    #logo {
+      width: 350px;
+    }
+    #combinationmark {
+      padding-top: 20%;
+    }
+
+    #disclaimer {
+      width: 100%;
+      max-width: 700px;
+      margin: 0px auto;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding: 10px;
+      background-color: rgba(0,0,0,0.4);
+      color: $color-light;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+	.disclaimerbox {
+		margin-bottom: 0px;
+		padding-bottom: 20%;
+	}
+    .warning {
+      color: darkred;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    textarea {
+      resize: none;
+    }
+    .btn-custom {
+      text-transform: uppercase;
+      min-width: 200px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      background-color: $color-light;
+      color: $dark-color;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: lightgray;
+      color: $dark-color;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    a {
+      color: #42b983;
+    }
+
+    #content {
+      margin-top: 70px;
+    }
+
+    #home {
+      background-image: url("/static/img/moare-team.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+
+    }
+
+    .filter-black {
+      height: 100%;
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    #about,
+    #values,
+    #team,
+    #contact,
+    #privacy {
+      padding: 50px 0px;
+    }
+    #team h4 {
+      color: $color-light;
+    }
+
+    #footer {
+      background-color: #212121;
+      color: $color-light;
+      padding: 20px 0px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    #about, #contact {
+      background-color: $primary-color;
+      color:$color-light;
+    }
+
+    #values {
+      background-color: white;
+    }
+
+
+    #about h3, #contact h3 {
+      color: $dark-color
+    }
+    #team {
+      background-color:$dark-color;
+    }
+    .bg-gray {
+      background-color: #212121;
+      color: $color-light;
+    }
+
+    nav {
+      font-size: 16px;
+      position: fixed;
+    }
+    .color-white{
+      color: $color-light;
+    }
+    .color-white:hover {
+      color: $primary-color;
+    }
+
+    img.value-left {
+      height: 200px;
+      float: left;
+      margin-bottom:33px;
+    }
+    img.value-right {
+      height: 200px;
+      float: right;
+      margin-bottom:33px;
+    }
+
+    .float-left {
+      float: left;
+    }
+
+    .margin-right-30 {
+      margin-right: 30px;
+    }
+    .margin-left-30 {
+      margin-left: 30px;
+    }
+    .dark-font {
+      color: $dark-color;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .white-text {
+      color: $color-light !important;
+    }
+
+    .clear {
+      clear: both;
+    }
+    .normal {
+      font-weight: 400;
+    }
+
+    .value-content-left {
+      text-align: left;
+    }
+    .value-content-right {
+      text-align: right;
+    }
+    /*rotating cards for team members */
+    .rotate-container {
+      position: relative;
+      margin: 0px auto;
+      margin-top: 0px;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+    .rotate-container .card-front, .rotate-container .card-back {
+      -webkit-transform: perspective(600px) rotateY(0deg);
+              transform: perspective(600px) rotateY(0deg);
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      transition: all 0.5s linear 0s;
+    }
+    .rotate-container .card-back {
+      -webkit-transform: perspective(1600px) rotateY(180deg);
+              transform: perspective(1600px) rotateY(180deg);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    .black-filter {
+      background-color:rgba(0,0,0,0.8);
+      border-radius: 15px;
+    }
+    .low-opac {
+      filter:opacity(0.1);
+    }
+    .rotate-container .rotate-card-front {
+      -webkit-transform: perspective(1600px) rotateY(-180deg);
+              transform: perspective(1600px) rotateY(-180deg);
+    }
+    .rotate-container .rotate-card-back {
+      -webkit-transform: perspective(1600px) rotateY(0deg);
+              transform: perspective(1600px) rotateY(0deg);
+    }
+
+    /* Modified card styles */
+    .card {
+      box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+    }
+    .card .card-header p {
+      margin: 0;
+      font-size:30px;
+      text-transform: uppercase;
+      color: $dark-color;
+    }
+    .card {
+      border:0px;
+    }
+    .bio {
+      color: $color-light;
+      position: absolute;
+      top: 120px;
+      font-size: 16px;
+      line-height: 20px;
+      margin-left: 30px;
+      margin-right: 20px;
+      text-align: left;
+      max-height:290px;
+      overflow-y: scroll;
+      letter-spacing: 1px;
+    }
+
+    h3.card-title {
+      color: $primary-color;
+      font-weight: normal;
+      font-size: 22px;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+    .card .card-background {
+      background: url("https://static.pexels.com/photos/443374/pexels-photo-443374.jpeg");
+      height: 8em;
+      background-position: center center;
+      background-size: cover;
+    }
+    .teampic {
+      width: 100%;
+      padding: 0px 20px 20px;
+    }
+    .click {
+      background-color: #FAFAFA;
+      color: $dark-color;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      letter-spacing: 1px;
+      padding: 5px;
+      border-radius: 0px 0px 10px 10px;
+    }
+    .backside {
+      background-color: #2E2E2E;
+      color: $color-light;
+    }
+    .hint {
+      height: 36px;
+    }
+    .card .btn {
+      margin-bottom: 1em;
+      cursor: pointer;
+    }
+    .card .social-links li {
+      margin: 0.5em;
+    }
+    .card .social-links a {
+      font-size: 1.5em;
+    }
+    .smaller {
+      font-size: 13px;
+    }
+    .italic {
+      font-style: italic;
+    }
+    .quote {
+      margin-bottom: 15px;
+      color: $dark-color !important;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .quotebox {
+      background-color: $primary-color;
+      border-radius: 3px;
+      padding: 10px;
+      margin-right: 10px;
+    }
+
+    /* ========== PRIVACY STATEMENT ========== */
+    #privacy {
+      text-align: left;
+      li::before {
+        content: "• "; 
+        color:$primary-color;
+      }
+      a {
+        color: $primary-color;
+      }
+      a:hover {
+        color: $primary-color;
+      }
+      a:visited {
+        color: $primary-color;
+      }
+    }
+
+    /* ========== FOOTER ========== */
+    #footer a {
+      color: $color-light !important;
+      margin-left: 20px;
+      text-decoration: underline;
+    }
+
+    #footer a:hover {
+      color:$color-light !important;
+    }
+    #footer a:visited {
+      color:$color-light !important;
+    }
+
+    .not-unterline {
+      text-decoration: none !important;
+    }
+
+    /* custom scrollbar */
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; //f1f1f1
+}
+
+/* =========== MEDIA QUERIES ========== */
+// Max small devices
+
+  @media (min-width: 576px) {
+    .rotate-container {
+      max-width: 340px;
+    }
+   }
+  @media (min-width: 768px) {
+    .rotate-container {
+      max-width: 280px;
+    }
+    .card .card-header p {
+      font-size: 25px;
+    }
+    h3.card-title {
+      font-size: 18px;
+    }
+    .click {
+      font-size: 15px;
+    }
+    .bio {
+      max-height: 235px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .rotate-container {
+      max-width: 340px;
+    }
+    .card .card-header p {
+      font-size: 30px;
+    }
+    h3.card-title {
+      font-size: 22px;
+    }
+    .bio {
+      max-height: 305px;
+    }
+
+  }
+
+  @media (max-width: 992px) {
+    #logo {
+      width: 250px;
+    }
+    #symbol {
+      width: 80px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .value-content-right, .value-content-left {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+    #logo-home {
+      display: none;
+    }
+    #home {
+      background-color: $dark-color;
+      background-image: none;
+    }
+    .filter-black {
+      background-color: rgba(0,0,0,0);
+    }
+  }
+
+  // Custom Breakpoints
+  @media (max-width: 1467px) {
+    .disclaimerbox {
+      padding-bottom: 15%;
+    }
+    #combinationmark {
+      padding-top: 15%;
+    }
+  }
+  @media (max-width: 1243px) {
+    .disclaimerbox {
+      padding-bottom: 10%;
+    }
+    #combinationmark {
+      padding-top: 10%;
+    }
+  }
+  @media (max-width: 450px) {
+    #logo {
+      width: 70%;
+    }
+    #symbol {
+      width: 20%;
+    }
+    #slogan {
+      font-size: 100%;
+    }
+  }

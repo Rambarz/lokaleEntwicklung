@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beleg Datenbanke und Web Techniken</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	 
+	<body>
+	<p><h1> Beleg Datenbanken und Web-Techniken von Florian Hahn SS2018.</p>
+	<p><h3> Darstellung der Aufgabenstellung in Form einer Tabelle </p>
+	<br>
+	<br>
+	<p><h4> Nach Speisen suchen:</h4></p>
+	<form action ="rest_api/search.php" method="GET">
+		<input type="text" name="suchbegriff" id="suchbegriff">
+		<input type="submit" value="Los gehsts!">
+	</form>
+	<p><h4> Nach Zutaten suchen:</h4></p>
+	<form action ="rest_api/search2.php" method="GET">
+		<input type="text" name="suchbegriff" id="suchbegriff">
+		<input type="submit" value="Los gehsts!">
+	</form>
+	<p id="search">
+	</p>
+	<br>
+	<br>
+	<p><h4> Auflistung aller Speisen:</h4></p>
+	<br>
+	<br>
+	
+<table border="1">
+  <tr>
+    <th>1</th>
+    <th>
+		<summary id="1"></summary>
+			<ul>
+				<li id="3"></li>
+				<li id="5"></li>
+				<li id="7"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="9"></li>
+							<li id="11"></li>
+						</ul>
+					</details>	
+				</li>		
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <th>
+		<summary id="2"></summary>
+			<ul>
+				<li id="4"></li>
+				<li id="6"></li>
+				<li id="8"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="10"></li>
+							<li id="12"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>3</th>
+    <th>
+		<summary id="13"></summary>
+			<ul>
+				<li id="17"></li>
+				<li id="21"></li>
+				<li id="25"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="29"></li>
+							<li id="33"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>4</th>
+    <th>
+		<summary id="14"></summary>
+			<ul>
+				<li id="18"></li>
+				<li id="22"></li>
+				<li id="26"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="30"></li>
+							<li id="34"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+    <tr>
+    <th>5</th>
+    <th>
+		<summary id="15"></summary>
+			<ul>
+				<li id="19"></li>
+				<li id="23"></li>
+				<li id="27"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="31"></li>
+							<li id="34"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>6</th>
+    <th>
+		<summary id="16"></summary>
+			<ul>
+				<li id="20"></li>
+				<li id="24"></li>
+				<li id="28"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="32"></li>
+							<li id="36"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>7</th>
+    <th>
+		<summary id="37"></summary>
+			<ul>
+				<li id="47"></li>
+				<li id="57"></li>
+				<li id="67"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="77"></li>
+							<li id="87"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>8</th>
+    <th>
+		<summary id="38"></summary>
+			<ul>
+				<li id="48"></li>
+				<li id="58"></li>
+				<li id="68"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="78"></li>
+							<li id="88"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>9</th>
+    <th>
+		<summary id="39"></summary>
+			<ul>
+				<li id="49"></li>
+				<li id="59"></li>
+				<li id="69"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="79"></li>
+							<li id="89"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>10</th>
+    <th>
+		<summary id="40"></summary>
+			<ul>
+				<li id="50"></li>
+				<li id="60"></li>
+				<li id="70"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="80"></li>
+							<li id="90"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>11</th>
+    <th>
+		<summary id="41"></summary>
+			<ul>
+				<li id="51"></li>
+				<li id="61"></li>
+				<li id="71"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="81"></li>
+							<li id="91"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>12</th>
+    <th>
+		<summary id="42"></summary>
+			<ul>
+				<li id="52"></li>
+				<li id="62"></li>
+				<li id="72"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="82"></li>
+							<li id="92"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>13</th>
+    <th>
+		<summary id="43"></summary>
+			<ul>
+				<li id="53"></li>
+				<li id="63"></li>
+				<li id="73"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="83"></li>
+							<li id="93"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>14</th>
+    <th>
+		<summary id="44"></summary>
+			<ul>
+				<li id="54"></li>
+				<li id="64"></li>
+				<li id="74"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="84"></li>
+							<li id="94"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>15</th>
+    <th>
+		<summary id="45"></summary>
+			<ul>
+				<li id="55"></li>
+				<li id="65"></li>
+				<li id="75"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="85"></li>
+							<li id="95"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+  <tr>
+    <th>16</th>
+    <th>
+		<summary id="46"></summary>
+			<ul>
+				<li id="56"></li>
+				<li id="66"></li>
+				<li id="76"></li>
+				<li>
+					<details> 
+						<ul>
+							<li id="86"></li>
+							<li id="96"></li>
+						</ul>
+					</details>	
+				</li>
+			</ul>
+	</th>
+  </tr>
+
+</table>
+<br>
+<br>
+
+<form action ="rest_api/update.php" method="GET" target="_blank">
+	Datenbanken aktualisieren (falls bereits vorhanden)!
+	<input type="submit" value="Los gehsts!">
+</form>
+
+<br>
+<p id="demo"></p>
+
+
+
+	<script>
+	//obj = { "table":"beleg_pizza1", "limit":10 };
+	//dbParam = JSON.stringify(obj);
+	//xmlhttp = new XMLHttpRequest();
+	//xmlhttp.onreadystatechange = function() {
+		//if (this.readyState == 4 && this.status == 200) {
+			//document.getElementById("demo").innerHTML = this.responseText;
+		//}
+	//};
+	//xmlhttp.open("GET", "pizza1.php?x=" + dbParam, true);
+	//xmlhttp.send(); 
+
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var myObj = JSON.parse(this.responseText);
+				//console.log(myObj);
+			myObj.forEach(function(element) {
+				//console.log(element);
+			});
+			document.getElementById("1").innerHTML = "Name: " + myObj[0].Name;
+			document.getElementById("2").innerHTML = "Name: " + myObj[1].Name;
+			
+			document.getElementById("3").innerHTML = "Preis: " + myObj[0].Preis;
+			document.getElementById("4").innerHTML = "Preis: " + myObj[1].Preis;
+			
+			document.getElementById("5").innerHTML = "Zutatenliste: " + myObj[0].Zutatenliste;
+			document.getElementById("6").innerHTML = "Zutatenliste: " + myObj[1].Zutatenliste;
+			
+			document.getElementById("7").innerHTML = "RestaurantName: " + myObj[0].RestaurantName;
+			document.getElementById("8").innerHTML = "RestaurantName: " + myObj[1].RestaurantName;
+			
+			document.getElementById("9").innerHTML = "Adresse: " + myObj[0].Adresse;
+			document.getElementById("10").innerHTML = "Adresse: " + myObj[1].Adresse;
+			
+			document.getElementById("11").innerHTML = "Telefonnummer: " + myObj[0].Telefonnummer;
+			document.getElementById("12").innerHTML = "Telefonnummer: " + myObj[1].Telefonnummer;
+		}
+	};
+	xmlhttp.open("GET", "rest_api/pizza1.php", true);
+	xmlhttp.send(); 
+	
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var myObj = JSON.parse(this.responseText);
+				//console.log(myObj);
+			myObj.forEach(function(element) {
+				//console.log(element);
+			});
+			document.getElementById("13").innerHTML = "Name: " + myObj[0].Name;
+			document.getElementById("14").innerHTML = "Name: " + myObj[1].Name;
+			document.getElementById("15").innerHTML = "Name: " + myObj[2].Name;
+			document.getElementById("16").innerHTML = "Name: " + myObj[3].Name;
+			
+			document.getElementById("17").innerHTML = "Preis: " + myObj[0].Preis;
+			document.getElementById("18").innerHTML = "Preis: " + myObj[1].Preis;
+			document.getElementById("19").innerHTML = "Preis: " + myObj[2].Preis;
+			document.getElementById("20").innerHTML = "Preis: " + myObj[3].Preis;
+			
+			document.getElementById("21").innerHTML = "Zutatenliste: " + myObj[0].Zutatenliste;
+			document.getElementById("22").innerHTML = "Zutatenliste: " + myObj[1].Zutatenliste;
+			document.getElementById("23").innerHTML = "Zutatenliste: " + myObj[2].Zutatenliste;
+			document.getElementById("24").innerHTML = "Zutatenliste: " + myObj[3].Zutatenliste;
+			
+			document.getElementById("25").innerHTML = "Restaurant Name: " + myObj[0].RestaurantName;
+			document.getElementById("26").innerHTML = "Restaurant Name: " + myObj[1].RestaurantName;
+			document.getElementById("27").innerHTML = "Restaurant Name: " + myObj[2].RestaurantName;
+			document.getElementById("28").innerHTML = "Restaurant Name: " + myObj[3].RestaurantName;
+			
+			document.getElementById("29").innerHTML = "Adresse: " + myObj[0].Adresse;
+			document.getElementById("30").innerHTML = "Adresse: " + myObj[1].Adresse;
+			document.getElementById("31").innerHTML = "Adresse: " + myObj[2].Adresse;
+			document.getElementById("32").innerHTML = "Adresse: " + myObj[3].Adresse;
+			
+			document.getElementById("33").innerHTML = "Telefonnummer: " + myObj[0].Telefonnummer;
+			document.getElementById("34").innerHTML = "Telefonnummer: " + myObj[1].Telefonnummer;
+			document.getElementById("35").innerHTML = "Telefonnummer: " + myObj[2].Telefonnummer;
+			document.getElementById("36").innerHTML = "Telefonnummer: " + myObj[3].Telefonnummer;
+		}
+	};
+	
+	xmlhttp.open("GET", "rest_api/pizza2.php", true);
+	xmlhttp.send();
+		
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var myObj = JSON.parse(this.responseText);
+				//console.log(myObj);
+			myObj.forEach(function(element) {
+				//console.log(element);
+			});
+			document.getElementById("37").innerHTML = "Name: " + myObj[0].Name;
+			document.getElementById("38").innerHTML = "Name: " + myObj[1].Name;
+			document.getElementById("39").innerHTML = "Name: " + myObj[2].Name;
+			document.getElementById("40").innerHTML = "Name: " + myObj[3].Name;
+			document.getElementById("41").innerHTML = "Name: " + myObj[4].Name;
+			document.getElementById("42").innerHTML = "Name: " + myObj[5].Name;
+			document.getElementById("43").innerHTML = "Name: " + myObj[6].Name;
+			document.getElementById("44").innerHTML = "Name: " + myObj[7].Name;
+			document.getElementById("45").innerHTML = "Name: " + myObj[8].Name;
+			document.getElementById("46").innerHTML = "Name: " + myObj[9].Name;
+			
+			document.getElementById("47").innerHTML = "Preis: " + myObj[0].Preis;
+			document.getElementById("48").innerHTML = "Preis: " + myObj[1].Preis;
+			document.getElementById("49").innerHTML = "Preis: " + myObj[2].Preis;
+			document.getElementById("50").innerHTML = "Preis: " + myObj[3].Preis;
+			document.getElementById("51").innerHTML = "Preis: " + myObj[4].Preis;
+			document.getElementById("52").innerHTML = "Preis: " + myObj[5].Preis;
+			document.getElementById("53").innerHTML = "Preis: " + myObj[6].Preis;
+			document.getElementById("54").innerHTML = "Preis: " + myObj[7].Preis;
+			document.getElementById("55").innerHTML = "Preis: " + myObj[8].Preis;
+			document.getElementById("56").innerHTML = "Preis: " + myObj[9].Preis;
+			
+			document.getElementById("57").innerHTML = "Zutatenliste: " + myObj[0].Zutatenliste;
+			document.getElementById("58").innerHTML = "Zutatenliste: " + myObj[1].Zutatenliste;
+			document.getElementById("59").innerHTML = "Zutatenliste: " + myObj[2].Zutatenliste;
+			document.getElementById("60").innerHTML = "Zutatenliste: " + myObj[3].Zutatenliste;
+			document.getElementById("61").innerHTML = "Zutatenliste: " + myObj[4].Zutatenliste;
+			document.getElementById("62").innerHTML = "Zutatenliste: " + myObj[5].Zutatenliste;
+			document.getElementById("63").innerHTML = "Zutatenliste: " + myObj[6].Zutatenliste;
+			document.getElementById("64").innerHTML = "Zutatenliste: " + myObj[7].Zutatenliste;
+			document.getElementById("65").innerHTML = "Zutatenliste: " + myObj[8].Zutatenliste;
+			document.getElementById("66").innerHTML = "Zutatenliste: " + myObj[9].Zutatenliste;
+			
+			document.getElementById("67").innerHTML = "RestaurantName: " + myObj[0].RestaurantName;
+			document.getElementById("68").innerHTML = "RestaurantName: " + myObj[1].RestaurantName;
+			document.getElementById("69").innerHTML = "RestaurantName: " + myObj[2].RestaurantName;
+			document.getElementById("70").innerHTML = "RestaurantName: " + myObj[3].RestaurantName;
+			document.getElementById("71").innerHTML = "RestaurantName: " + myObj[4].RestaurantName;
+			document.getElementById("72").innerHTML = "RestaurantName: " + myObj[5].RestaurantName;
+			document.getElementById("73").innerHTML = "RestaurantName: " + myObj[6].RestaurantName;
+			document.getElementById("74").innerHTML = "RestaurantName: " + myObj[7].RestaurantName;
+			document.getElementById("75").innerHTML = "RestaurantName: " + myObj[8].RestaurantName;
+			document.getElementById("76").innerHTML = "RestaurantName: " + myObj[9].RestaurantName;
+			
+			document.getElementById("77").innerHTML = "Adresse: " + myObj[0].Adresse;
+			document.getElementById("78").innerHTML = "Adresse: " + myObj[1].Adresse;
+			document.getElementById("79").innerHTML = "Adresse: " + myObj[2].Adresse;
+			document.getElementById("80").innerHTML = "Adresse: " + myObj[3].Adresse;
+			document.getElementById("81").innerHTML = "Adresse: " + myObj[4].Adresse;
+			document.getElementById("82").innerHTML = "Adresse: " + myObj[5].Adresse;
+			document.getElementById("83").innerHTML = "Adresse: " + myObj[6].Adresse;
+			document.getElementById("84").innerHTML = "Adresse: " + myObj[7].Adresse;
+			document.getElementById("85").innerHTML = "Adresse: " + myObj[8].Adresse;
+			document.getElementById("86").innerHTML = "Adresse: " + myObj[9].Adresse;
+			
+			document.getElementById("87").innerHTML = "Telefonnummer: " + myObj[0].Telefonnummer;
+			document.getElementById("88").innerHTML = "Telefonnummer: " + myObj[1].Telefonnummer;
+			document.getElementById("89").innerHTML = "Telefonnummer: " + myObj[2].Telefonnummer;
+			document.getElementById("90").innerHTML = "Telefonnummer: " + myObj[3].Telefonnummer;
+			document.getElementById("91").innerHTML = "Telefonnummer: " + myObj[4].Telefonnummer;
+			document.getElementById("92").innerHTML = "Telefonnummer: " + myObj[5].Telefonnummer;
+			document.getElementById("93").innerHTML = "Telefonnummer: " + myObj[6].Telefonnummer;
+			document.getElementById("94").innerHTML = "Telefonnummer: " + myObj[7].Telefonnummer;
+			document.getElementById("95").innerHTML = "Telefonnummer: " + myObj[8].Telefonnummer;
+			document.getElementById("96").innerHTML = "Telefonnummer: " + myObj[9].Telefonnummer;
+
+
+		}
+	};
+	xmlhttp.open("GET", "rest_api/pizza3.php", true);
+	xmlhttp.send();
+	
+	
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var myObj = JSON.parse(this.responseText);
+				console.log(myObj);
+			myObj.forEach(function(element) {
+				console.log(element);
+			});
+			document.getElementById("search").innerHTML = "Folgende Ergebnisse unter den gesuchten Namen: " + myObj[0].Name;
+
+		}
+	};
+	xmlhttp.open("GET", "search.php?suchbegriff=" + dbParam, true);
+	xmlhttp.send(); 
+
+
+	</script>
+
+</body>
+</html>
